@@ -37,7 +37,7 @@ img {
 }
 
 div {
-	height: auto 125px;
+    min-height: 125px;
 	padding: 20px;
 	border: 3px solid white;
 }
@@ -99,9 +99,12 @@ footer {
 	background: linear-gradient(90deg, rgba(0,0,0,1) 0%,
 	 rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
 	border: 5px white solid;
-	font-size: 20px;
 	text-align: right;
-	padding-top: 15px;
+}
+
+footer p {
+    font-size: 20px;
+    padding-top: 15px;
 	padding-right: 15px;
 	padding-bottom: 15px;
 }
